@@ -275,8 +275,8 @@ class PrettyPrinter:
         self.outlines = outlines
         self.wrapcol = wrapcol
 
-        self.BULLET_INDENT1 = " * "
-        self.BULLET_INDENT2 = "   "
+        self.BULLET_INDENT1 = "- "
+        self.BULLET_INDENT2 = "  "
         self.QUOTE_INDENT = self.BULLET_INDENT2 + "> "
 
         if wrapcol:
